@@ -1,0 +1,137 @@
+.banner-wrapper {
+  background: white url("../../assets/banner.png") no-repeat scroll center;
+  height: 384px;
+  // border: 2px red solid;
+  color: white;
+  background-size: 100% 100%;
+}
+
+.main-content-wrapper {
+  // background-color: rgba(0,0,0,0.7);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  .section-heading {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+  }
+  .para {
+    margin: 12px 0px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    color: #c4c4c4;
+  }
+  .search-box-wrapper {
+    width: 808px;
+    @media only screen and (max-width: 992px) {
+      max-width: 90%;
+    }
+  }
+}
+
+.searchbox-wrapper {
+  display: flex;
+  align-items: center;
+  outline: none !important;
+  background: #fafafa;
+  box-shadow: inset 0px 4px 19px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  width: 100%;
+  padding: 0px !important;
+  .search-icon {
+    // border: 1px solid;
+    margin: 12px;
+  }
+  .search-input-box {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    flex-grow: 1;
+    .search-input {
+      background: transparent;
+      width: 100%;
+      border: none;
+      outline: none;
+    }
+    input {
+      border: none !important;
+    }
+    :focus {
+      outline: none;
+    }
+  }
+}
+
+.image-detail-wrapper {
+ // border: 1px solid red;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  .left-content {
+    display: flex;
+    align-items: center;
+    .author-image {
+      margin-right: 10px;
+
+      img {
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+      }
+    }
+    .author-details {
+      .name {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+
+        color: #4f4f4f;
+      }
+      .username {
+        font-family: "Poppins";
+        font-style: italic;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 18px;
+        color: #a7a7a7;
+      }
+    }
+  }
+  .right-content {
+    display: flex;
+    align-items: center;
+    .icon {
+      margin-right: 2px;
+    }
+    .downloads {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14.1538px;
+      line-height: 17px;
+      color: #858484;
+    }
+    .likes-wrapper {
+      display: flex;
+      align-items: center;
+      margin-left: 10px;
+    }
+  }
+}

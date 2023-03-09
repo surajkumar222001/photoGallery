@@ -1,0 +1,96 @@
+.body-wrapper {
+ // border: 1px solid black;
+  .image-wrapper {
+    img {
+      width: 100%;
+    }
+  }
+  .utility-btns {
+    position: absolute;
+    bottom: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    .left-set {
+      display: flex;
+      margin-left: 15px;
+    }
+    .right-set {
+        margin-right: 30px;
+      .download-btn {
+        width: 157px;
+        background: #3cb46e;
+        border-radius: 4px;
+        button {
+          outline: none;
+          background: transparent;
+          border: none;
+          text-align: center;
+          width: 100%;
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 10px;
+          line-height: 12px;
+          letter-spacing: -0.02em;
+          color: #ffffff;
+          padding: 13px 10px;
+        }
+      }
+    }
+    .utility-btn {
+      display: flex;
+      align-items: center;
+      padding: 5px;
+      button {
+        outline: none;
+        border: 0.823529px solid #ececec;
+        border-radius: 3.29412px;
+        background: transparent;
+        display: flex;
+        align-items: center;
+        .icon {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .text {
+          margin-left: 4px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 8.23529px;
+          line-height: 10px;
+          text-align: center;
+          color: #ececec;
+        }
+      }
+    }
+  }
+}
+.mr-7 {
+  margin-right: 7px;
+}
+.modal-body {
+  padding: 0px !important;
+ // border: 1px solid black !important;
+}
+
+.relative{
+  position: absolute;
+  width: 82px;
+  height: 15px;
+  left: 27;
+}
+.relative-tags{
+  display: flex;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  margin-top: 33px;
+}

@@ -1,0 +1,80 @@
+.mt-48{
+    margin-top: 42px;
+}
+.pointer{
+    cursor: pointer;
+}
+.card-body-wrapper{
+    // border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .left-content{
+        display: flex;
+        align-items: center;
+        .author-image{
+        margin-right: 10px;
+
+            img{
+                width: 39px;
+                height: 39px;
+                border-radius: 50%;
+            }
+        }
+        .author-details{
+            .name{
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 12px;
+                line-height: 15px;
+                color: #4F4F4F;
+            }
+            .username{
+                font-family: 'Poppins';
+                font-style: italic;
+                font-weight: 600;
+                font-size: 10px;
+                line-height: 15px;
+                color: #A7A7A7;
+            }
+        }
+    }
+    .right-content{
+        display: flex;
+        align-items: center;
+        .icon{
+            margin-right: 2px;
+        }
+    }
+}
+
+.searchElement{
+    overflow: hidden;
+    .searchType{
+    display: flex;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    }
+}
+
+.searchTag {
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 4px;
+    margin: 20px;
+    .tags{
+        display: flex;
+        padding: 20px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        color: #4F4F4F;
+        background: white;
+        }
+}
+

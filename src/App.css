@@ -1,0 +1,23 @@
+
+@font-face {
+  font-family: "Pattaya";   /*Can be any text*/
+  src: local("Pattaya-Regular"),
+    url("./fonts/Pattaya-Regular.ttf") format("truetype");
+}
+
+
+@font-face {
+  font-family: "Montserrat";   /*Can be any text*/
+  src: local("Montserrat-Medium"),
+    url("./fonts/Montserrat/static/Montserrat-Black.ttf") format("truetype");
+}
+
+.day{
+  background-color: white!important;
+  color: #333333 !important;
+}
+
+.night{
+  background-color:#232323!important;
+  color: #FFFFFF !important;
+}
